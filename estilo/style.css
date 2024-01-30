@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 5%;
+    font-size: 2em;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', system-ui;
+    text-decoration: none;
+}
+
+#bloco {
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 380px;
+    display: block;
+}
+
+#texto {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+#relogio-bloco {
+    padding: 10px;
+    position: relative;
+}
+
+#relogio-bloco img {
+    width: 100%;
+    height: auto;
+}
+
+#relogio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#hora {
+    color: rgb(0, 230, 0);
+    font-size: 6.1em;
+    font-family: 'Black Ops One', system-ui;
+    background-color: rgb(75, 75, 75);
+    width: 316px;
+    height: 140px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.808);
+    border-radius: 10px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
